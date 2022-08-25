@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D276AC2428B6FDFB006912D9 /* NC2_NLP_Sentiment_AnalysisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276AC2328B6FDFB006912D9 /* NC2_NLP_Sentiment_AnalysisApp.swift */; };
+		D276AC2828B6FDFC006912D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D276AC2728B6FDFC006912D9 /* Assets.xcassets */; };
+		D276AC2B28B6FDFC006912D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D276AC2A28B6FDFC006912D9 /* Preview Assets.xcassets */; };
+		D276AC3828B6FE69006912D9 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276AC3728B6FE69006912D9 /* MainViewModel.swift */; };
+		D276AC3A28B6FE76006912D9 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276AC3928B6FE76006912D9 /* Main.swift */; };
+		D276AC3E28B6FEAE006912D9 /* ClovaDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276AC3D28B6FEAE006912D9 /* ClovaDataService.swift */; };
+		D276AC4028B6FEB6006912D9 /* CustomDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276AC3F28B6FEB6006912D9 /* CustomDataService.swift */; };
+		D276AC4228B6FEF2006912D9 /* SentimentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276AC4128B6FEF2006912D9 /* SentimentModel.swift */; };
+		D276AC4428B6FF07006912D9 /* TextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276AC4328B6FF07006912D9 /* TextInput.swift */; };
+		D276AC4628B6FF4B006912D9 /* CustomProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276AC4528B6FF4B006912D9 /* CustomProtocols.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D276AC2028B6FDFB006912D9 /* NC2_NLP_Sentiment_Analysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NC2_NLP_Sentiment_Analysis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D276AC2328B6FDFB006912D9 /* NC2_NLP_Sentiment_AnalysisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC2_NLP_Sentiment_AnalysisApp.swift; sourceTree = "<group>"; };
+		D276AC2728B6FDFC006912D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D276AC2A28B6FDFC006912D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D276AC3728B6FE69006912D9 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		D276AC3928B6FE76006912D9 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		D276AC3D28B6FEAE006912D9 /* ClovaDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClovaDataService.swift; sourceTree = "<group>"; };
+		D276AC3F28B6FEB6006912D9 /* CustomDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDataService.swift; sourceTree = "<group>"; };
+		D276AC4128B6FEF2006912D9 /* SentimentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentModel.swift; sourceTree = "<group>"; };
+		D276AC4328B6FF07006912D9 /* TextInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInput.swift; sourceTree = "<group>"; };
+		D276AC4528B6FF4B006912D9 /* CustomProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProtocols.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D276AC1D28B6FDFB006912D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D276AC1728B6FDFB006912D9 = {
+			isa = PBXGroup;
+			children = (
+				D276AC2228B6FDFB006912D9 /* NC2_NLP_Sentiment_Analysis */,
+				D276AC2128B6FDFB006912D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D276AC2128B6FDFB006912D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D276AC2028B6FDFB006912D9 /* NC2_NLP_Sentiment_Analysis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D276AC2228B6FDFB006912D9 /* NC2_NLP_Sentiment_Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				D276AC2328B6FDFB006912D9 /* NC2_NLP_Sentiment_AnalysisApp.swift */,
+				D276AC3428B6FE25006912D9 /* Utilties */,
+				D276AC3328B6FE20006912D9 /* ViewModels */,
+				D276AC3228B6FE1C006912D9 /* Views */,
+				D276AC3128B6FE13006912D9 /* Models */,
+				D276AC2728B6FDFC006912D9 /* Assets.xcassets */,
+				D276AC2928B6FDFC006912D9 /* Preview Content */,
+			);
+			path = NC2_NLP_Sentiment_Analysis;
+			sourceTree = "<group>";
+		};
+		D276AC2928B6FDFC006912D9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D276AC2A28B6FDFC006912D9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D276AC3128B6FE13006912D9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D276AC4128B6FEF2006912D9 /* SentimentModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D276AC3228B6FE1C006912D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D276AC3928B6FE76006912D9 /* Main.swift */,
+				D276AC4328B6FF07006912D9 /* TextInput.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D276AC3328B6FE20006912D9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D276AC3728B6FE69006912D9 /* MainViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D276AC3428B6FE25006912D9 /* Utilties */ = {
+			isa = PBXGroup;
+			children = (
+				D276AC3D28B6FEAE006912D9 /* ClovaDataService.swift */,
+				D276AC3F28B6FEB6006912D9 /* CustomDataService.swift */,
+				D276AC4528B6FF4B006912D9 /* CustomProtocols.swift */,
+			);
+			path = Utilties;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D276AC1F28B6FDFB006912D9 /* NC2_NLP_Sentiment_Analysis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D276AC2E28B6FDFC006912D9 /* Build configuration list for PBXNativeTarget "NC2_NLP_Sentiment_Analysis" */;
+			buildPhases = (
+				D276AC1C28B6FDFB006912D9 /* Sources */,
+				D276AC1D28B6FDFB006912D9 /* Frameworks */,
+				D276AC1E28B6FDFB006912D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NC2_NLP_Sentiment_Analysis;
+			productName = NC2_NLP_Sentiment_Analysis;
+			productReference = D276AC2028B6FDFB006912D9 /* NC2_NLP_Sentiment_Analysis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D276AC1828B6FDFB006912D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D276AC1F28B6FDFB006912D9 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D276AC1B28B6FDFB006912D9 /* Build configuration list for PBXProject "NC2_NLP_Sentiment_Analysis" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D276AC1728B6FDFB006912D9;
+			productRefGroup = D276AC2128B6FDFB006912D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D276AC1F28B6FDFB006912D9 /* NC2_NLP_Sentiment_Analysis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D276AC1E28B6FDFB006912D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D276AC2B28B6FDFC006912D9 /* Preview Assets.xcassets in Resources */,
+				D276AC2828B6FDFC006912D9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D276AC1C28B6FDFB006912D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D276AC4628B6FF4B006912D9 /* CustomProtocols.swift in Sources */,
+				D276AC3A28B6FE76006912D9 /* Main.swift in Sources */,
+				D276AC2428B6FDFB006912D9 /* NC2_NLP_Sentiment_AnalysisApp.swift in Sources */,
+				D276AC3828B6FE69006912D9 /* MainViewModel.swift in Sources */,
+				D276AC4228B6FEF2006912D9 /* SentimentModel.swift in Sources */,
+				D276AC4028B6FEB6006912D9 /* CustomDataService.swift in Sources */,
+				D276AC3E28B6FEAE006912D9 /* ClovaDataService.swift in Sources */,
+				D276AC4428B6FF07006912D9 /* TextInput.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D276AC2C28B6FDFC006912D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D276AC2D28B6FDFC006912D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D276AC2F28B6FDFC006912D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NC2_NLP_Sentiment_Analysis/Preview Content\"";
+				DEVELOPMENT_TEAM = 4JPWGVR2ZN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Junyoung-Park.NC2-NLP-Sentiment-Analysis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D276AC3028B6FDFC006912D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NC2_NLP_Sentiment_Analysis/Preview Content\"";
+				DEVELOPMENT_TEAM = 4JPWGVR2ZN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Junyoung-Park.NC2-NLP-Sentiment-Analysis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D276AC1B28B6FDFB006912D9 /* Build configuration list for PBXProject "NC2_NLP_Sentiment_Analysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D276AC2C28B6FDFC006912D9 /* Debug */,
+				D276AC2D28B6FDFC006912D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D276AC2E28B6FDFC006912D9 /* Build configuration list for PBXNativeTarget "NC2_NLP_Sentiment_Analysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D276AC2F28B6FDFC006912D9 /* Debug */,
+				D276AC3028B6FDFC006912D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D276AC1828B6FDFB006912D9 /* Project object */;
+}
