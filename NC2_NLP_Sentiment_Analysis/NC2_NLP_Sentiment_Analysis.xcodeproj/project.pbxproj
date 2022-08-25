@@ -17,6 +17,7 @@
 		D276AC4228B6FEF2006912D9 /* SentimentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276AC4128B6FEF2006912D9 /* SentimentModel.swift */; };
 		D276AC4428B6FF07006912D9 /* TextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276AC4328B6FF07006912D9 /* TextInput.swift */; };
 		D276AC4628B6FF4B006912D9 /* CustomProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276AC4528B6FF4B006912D9 /* CustomProtocols.swift */; };
+		D276AC4828B70429006912D9 /* ClovaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276AC4728B70429006912D9 /* ClovaEnum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		D276AC4128B6FEF2006912D9 /* SentimentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentModel.swift; sourceTree = "<group>"; };
 		D276AC4328B6FF07006912D9 /* TextInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInput.swift; sourceTree = "<group>"; };
 		D276AC4528B6FF4B006912D9 /* CustomProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProtocols.swift; sourceTree = "<group>"; };
+		D276AC4728B70429006912D9 /* ClovaEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClovaEnum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				D276AC4128B6FEF2006912D9 /* SentimentModel.swift */,
+				D276AC4728B70429006912D9 /* ClovaEnum.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				D276AC4028B6FEB6006912D9 /* CustomDataService.swift in Sources */,
 				D276AC3E28B6FEAE006912D9 /* ClovaDataService.swift in Sources */,
 				D276AC4428B6FF07006912D9 /* TextInput.swift in Sources */,
+				D276AC4828B70429006912D9 /* ClovaEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
