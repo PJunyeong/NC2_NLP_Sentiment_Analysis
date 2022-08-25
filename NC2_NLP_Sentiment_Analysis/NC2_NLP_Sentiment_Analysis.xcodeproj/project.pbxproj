@@ -10,7 +10,7 @@
 		D276AC2428B6FDFB006912D9 /* NC2_NLP_Sentiment_AnalysisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276AC2328B6FDFB006912D9 /* NC2_NLP_Sentiment_AnalysisApp.swift */; };
 		D276AC2828B6FDFC006912D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D276AC2728B6FDFC006912D9 /* Assets.xcassets */; };
 		D276AC2B28B6FDFC006912D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D276AC2A28B6FDFC006912D9 /* Preview Assets.xcassets */; };
-		D276AC3828B6FE69006912D9 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276AC3728B6FE69006912D9 /* MainViewModel.swift */; };
+		D276AC3828B6FE69006912D9 /* TextInputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276AC3728B6FE69006912D9 /* TextInputViewModel.swift */; };
 		D276AC3A28B6FE76006912D9 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276AC3928B6FE76006912D9 /* Main.swift */; };
 		D276AC3E28B6FEAE006912D9 /* ClovaDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276AC3D28B6FEAE006912D9 /* ClovaDataService.swift */; };
 		D276AC4028B6FEB6006912D9 /* CustomDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276AC3F28B6FEB6006912D9 /* CustomDataService.swift */; };
@@ -18,6 +18,7 @@
 		D276AC4428B6FF07006912D9 /* TextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276AC4328B6FF07006912D9 /* TextInput.swift */; };
 		D276AC4628B6FF4B006912D9 /* CustomProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276AC4528B6FF4B006912D9 /* CustomProtocols.swift */; };
 		D276AC4828B70429006912D9 /* ClovaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276AC4728B70429006912D9 /* ClovaEnum.swift */; };
+		D276AC4A28B71339006912D9 /* DataServiceEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276AC4928B71339006912D9 /* DataServiceEnum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +26,7 @@
 		D276AC2328B6FDFB006912D9 /* NC2_NLP_Sentiment_AnalysisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC2_NLP_Sentiment_AnalysisApp.swift; sourceTree = "<group>"; };
 		D276AC2728B6FDFC006912D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D276AC2A28B6FDFC006912D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D276AC3728B6FE69006912D9 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		D276AC3728B6FE69006912D9 /* TextInputViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputViewModel.swift; sourceTree = "<group>"; };
 		D276AC3928B6FE76006912D9 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		D276AC3D28B6FEAE006912D9 /* ClovaDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClovaDataService.swift; sourceTree = "<group>"; };
 		D276AC3F28B6FEB6006912D9 /* CustomDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDataService.swift; sourceTree = "<group>"; };
@@ -33,6 +34,7 @@
 		D276AC4328B6FF07006912D9 /* TextInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInput.swift; sourceTree = "<group>"; };
 		D276AC4528B6FF4B006912D9 /* CustomProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProtocols.swift; sourceTree = "<group>"; };
 		D276AC4728B70429006912D9 /* ClovaEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClovaEnum.swift; sourceTree = "<group>"; };
+		D276AC4928B71339006912D9 /* DataServiceEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServiceEnum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			children = (
 				D276AC4128B6FEF2006912D9 /* SentimentModel.swift */,
 				D276AC4728B70429006912D9 /* ClovaEnum.swift */,
+				D276AC4928B71339006912D9 /* DataServiceEnum.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -105,7 +108,7 @@
 		D276AC3328B6FE20006912D9 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				D276AC3728B6FE69006912D9 /* MainViewModel.swift */,
+				D276AC3728B6FE69006912D9 /* TextInputViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -193,7 +196,8 @@
 				D276AC4628B6FF4B006912D9 /* CustomProtocols.swift in Sources */,
 				D276AC3A28B6FE76006912D9 /* Main.swift in Sources */,
 				D276AC2428B6FDFB006912D9 /* NC2_NLP_Sentiment_AnalysisApp.swift in Sources */,
-				D276AC3828B6FE69006912D9 /* MainViewModel.swift in Sources */,
+				D276AC3828B6FE69006912D9 /* TextInputViewModel.swift in Sources */,
+				D276AC4A28B71339006912D9 /* DataServiceEnum.swift in Sources */,
 				D276AC4228B6FEF2006912D9 /* SentimentModel.swift in Sources */,
 				D276AC4028B6FEB6006912D9 /* CustomDataService.swift in Sources */,
 				D276AC3E28B6FEAE006912D9 /* ClovaDataService.swift in Sources */,

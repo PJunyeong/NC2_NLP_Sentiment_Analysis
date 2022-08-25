@@ -9,7 +9,7 @@ import Foundation
 
 struct SentimentModel: Codable {
     let document: Document
-    let sentence: Sentence
+    let sentences: [Sentence]
 }
 
 // MARK: - Document

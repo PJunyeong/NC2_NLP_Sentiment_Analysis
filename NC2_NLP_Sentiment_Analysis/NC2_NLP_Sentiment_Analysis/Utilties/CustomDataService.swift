@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+class CustomDataService: DataService {
+    var sentimentAnalysisPublisher: Published<SentimentModel?>.Publisher {
+        $sentimentAnalysis
+    }
+    @Published var sentimentAnalysis: SentimentModel? = nil
+    
+    func fetchSentimentAnalysis(_ text: String) {
+        
+    }
+    
+    
+}
