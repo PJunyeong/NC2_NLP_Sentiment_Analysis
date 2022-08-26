@@ -21,11 +21,17 @@ struct TextInput: View {
             
             if let sentimentAnalysis = viewModel.sentimentAnalysis {
                 Text(sentimentAnalysis.document.sentiment)
+                    .font(.headline)
+                    .fontWeight(.semibold)
+                    .withDefaultViewModifier()
             }
             Button {
                 viewModel.fetchSentimentAnalysis()
             } label: {
                 Text("GET DATA!")
+                    .font(.headline)
+                    .fontWeight(.semibold)
+                    .withDefaultViewModifier()
             }
         }
     }

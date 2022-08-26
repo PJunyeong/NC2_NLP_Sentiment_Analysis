@@ -55,12 +55,7 @@ extension Main {
             Text("오늘 일기 작성 -> 텍스트 작성 모달")
                 .font(.headline)
                 .fontWeight(.semibold)
-                .foregroundColor(.white)
-                .frame(height: 55)
-                .frame(maxWidth: .infinity)
-                .background(Color.blue.opacity(0.4))
-                .cornerRadius(10)
-                .padding(.horizontal, 40)
+                .withDefaultViewModifier()
         }
         .sheet(isPresented: $showSheet) {
             TextInput(dataServiceEnum: .ClovaSentimentDataService)

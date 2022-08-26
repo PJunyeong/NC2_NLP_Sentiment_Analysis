@@ -20,6 +20,8 @@
 		D276AC4828B70429006912D9 /* ClovaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276AC4728B70429006912D9 /* ClovaEnum.swift */; };
 		D276AC4A28B71339006912D9 /* DataServiceEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276AC4928B71339006912D9 /* DataServiceEnum.swift */; };
 		D2D78ADD28B8526000AA8BFB /* DiaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D78ADC28B8526000AA8BFB /* DiaryModel.swift */; };
+		D2D78AE028B8F52600AA8BFB /* DefaultButtonViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D78ADF28B8F52600AA8BFB /* DefaultButtonViewModifier.swift */; };
+		D2D78AE228B8F56200AA8BFB /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D78AE128B8F56200AA8BFB /* View+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		D276AC4728B70429006912D9 /* ClovaEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClovaEnum.swift; sourceTree = "<group>"; };
 		D276AC4928B71339006912D9 /* DataServiceEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServiceEnum.swift; sourceTree = "<group>"; };
 		D2D78ADC28B8526000AA8BFB /* DiaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryModel.swift; sourceTree = "<group>"; };
+		D2D78ADF28B8F52600AA8BFB /* DefaultButtonViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultButtonViewModifier.swift; sourceTree = "<group>"; };
+		D2D78AE128B8F56200AA8BFB /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,8 @@
 				D276AC3D28B6FEAE006912D9 /* ClovaDataService.swift */,
 				D276AC3F28B6FEB6006912D9 /* CustomDataService.swift */,
 				D276AC4528B6FF4B006912D9 /* CustomProtocols.swift */,
+				D2D78ADF28B8F52600AA8BFB /* DefaultButtonViewModifier.swift */,
+				D2D78AE128B8F56200AA8BFB /* View+Extension.swift */,
 			);
 			path = Utilties;
 			sourceTree = "<group>";
@@ -197,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D276AC4628B6FF4B006912D9 /* CustomProtocols.swift in Sources */,
+				D2D78AE028B8F52600AA8BFB /* DefaultButtonViewModifier.swift in Sources */,
 				D276AC3A28B6FE76006912D9 /* Main.swift in Sources */,
 				D276AC2428B6FDFB006912D9 /* NC2_NLP_Sentiment_AnalysisApp.swift in Sources */,
 				D276AC3828B6FE69006912D9 /* TextInputViewModel.swift in Sources */,
@@ -205,6 +212,7 @@
 				D276AC4028B6FEB6006912D9 /* CustomDataService.swift in Sources */,
 				D276AC3E28B6FEAE006912D9 /* ClovaDataService.swift in Sources */,
 				D2D78ADD28B8526000AA8BFB /* DiaryModel.swift in Sources */,
+				D2D78AE228B8F56200AA8BFB /* View+Extension.swift in Sources */,
 				D276AC4428B6FF07006912D9 /* TextInput.swift in Sources */,
 				D276AC4828B70429006912D9 /* ClovaEnum.swift in Sources */,
 			);
