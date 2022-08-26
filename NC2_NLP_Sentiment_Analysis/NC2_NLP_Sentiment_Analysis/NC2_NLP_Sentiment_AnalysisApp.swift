@@ -11,7 +11,7 @@ import SwiftUI
 struct NC2_NLP_Sentiment_AnalysisApp: App {
     var body: some Scene {
         WindowGroup {
-            TextInput(dataServiceEnum: DataServiceEnum.ClovaSentimentDataService)
+            Main()
         }
     }
 }

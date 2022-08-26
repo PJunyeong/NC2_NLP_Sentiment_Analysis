@@ -9,21 +9,24 @@ import SwiftUI
 
 struct TextInput: View {
     @StateObject private var viewModel: TextInputViewModel
-    let mockText = "저는 오늘 새로운 맥북을 샀어요!"
     init(dataServiceEnum: DataServiceEnum) {
         _viewModel = StateObject(wrappedValue: TextInputViewModel(dataService: dataServiceEnum.dataService))
     }
     var body: some View {
         VStack {
+            TextEditor(text: $viewModel.inputText)
+                .background(Color.gray.opacity(0.1))
+                .cornerRadius(10)
+                .padding()
+            
             if let sentimentAnalysis = viewModel.sentimentAnalysis {
                 Text(sentimentAnalysis.document.sentiment)
             }
             Button {
-                viewModel.fetchSentimentAnalysis(mockText)
+                viewModel.fetchSentimentAnalysis()
             } label: {
                 Text("GET DATA!")
             }
-
         }
     }
 }

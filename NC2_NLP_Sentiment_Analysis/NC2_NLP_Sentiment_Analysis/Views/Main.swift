@@ -8,8 +8,63 @@
 import SwiftUI
 
 struct Main: View {
+    @State private var showSheet: Bool = false
+    @State private var tabSelection: Int = 1
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack(alignment: .center, spacing: 20) {
+                calendarTabView
+                writeButton
+            }
+            .navigationTitle("감정 일기")
+            .padding()
+        }
+    }
+}
+
+extension Main {
+    private var calendarTabView: some View {
+        ZStack {
+            TabView(selection: $tabSelection) {
+                Rectangle()
+                    .foregroundColor(.red)
+                    .tag(1)
+                Rectangle()
+                    .foregroundColor(.orange)
+                    .tag(2)
+                Rectangle()
+                    .foregroundColor(.yellow)
+                    .tag(3)
+                Rectangle()
+                    .foregroundColor(.green)
+                    .tag(4)
+                Rectangle()
+                    .foregroundColor(.blue)
+                    .tag(5)
+            }
+            .frame(height: 400)
+            .tabViewStyle(.page)
+            Text("달력 형태의 일기 -> Grid 뷰입니다")
+        }
+    }
+    
+    private var writeButton: some View {
+        Button {
+            showSheet.toggle()
+        } label: {
+            Text("오늘 일기 작성 -> 텍스트 작성 모달")
+                .font(.headline)
+                .fontWeight(.semibold)
+                .foregroundColor(.white)
+                .frame(height: 55)
+                .frame(maxWidth: .infinity)
+                .background(Color.blue.opacity(0.4))
+                .cornerRadius(10)
+                .padding(.horizontal, 40)
+        }
+        .sheet(isPresented: $showSheet) {
+            TextInput(dataServiceEnum: .ClovaSentimentDataService)
+        }
     }
 }
 

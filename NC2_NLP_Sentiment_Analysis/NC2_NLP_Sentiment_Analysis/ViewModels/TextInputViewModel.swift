@@ -10,6 +10,7 @@ import Combine
 
 class TextInputViewModel: ObservableObject {
     @Published var sentimentAnalysis: SentimentModel? = nil
+    @Published var inputText: String = ""
     let dataService: DataService
     var cancellables = Set<AnyCancellable>()
     
@@ -22,13 +23,15 @@ class TextInputViewModel: ObservableObject {
         dataService.sentimentAnalysisPublisher
             .sink { [weak self] returnedData in
             guard let self = self else { return }
-            self.sentimentAnalysis = returnedData
+                DispatchQueue.main.async {
+                    self.sentimentAnalysis = returnedData
+                }
             }
             .store(in: &cancellables)
     }
     
-    func fetchSentimentAnalysis(_ text: String) {
-        guard text.count > 0 && text.count <= 1000 else { return }
-        dataService.fetchSentimentAnalysis(text)
+    func fetchSentimentAnalysis() {
+        guard inputText.count > 0 && inputText.count <= 1000 else { return }
+        dataService.fetchSentimentAnalysis(inputText)
     }
 }
