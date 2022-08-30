@@ -20,7 +20,13 @@ struct TextInput: View {
                 .padding()
             
             if let sentimentAnalysis = viewModel.sentimentAnalysis {
-                Text(sentimentAnalysis.document.sentiment)
+                if let document = sentimentAnalysis.document {
+                    Text(document.sentiment)
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .withDefaultViewModifier()
+                }
+                Text(sentimentAnalysis.labelString)
                     .font(.headline)
                     .fontWeight(.semibold)
                     .withDefaultViewModifier()

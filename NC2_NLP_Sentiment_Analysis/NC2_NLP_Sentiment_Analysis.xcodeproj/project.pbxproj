@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D20D754328BDB63300081653 /* CustomEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20D754228BDB63300081653 /* CustomEnum.swift */; };
 		D276AC2428B6FDFB006912D9 /* NC2_NLP_Sentiment_AnalysisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276AC2328B6FDFB006912D9 /* NC2_NLP_Sentiment_AnalysisApp.swift */; };
 		D276AC2828B6FDFC006912D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D276AC2728B6FDFC006912D9 /* Assets.xcassets */; };
 		D276AC2B28B6FDFC006912D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D276AC2A28B6FDFC006912D9 /* Preview Assets.xcassets */; };
@@ -25,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D20D754228BDB63300081653 /* CustomEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEnum.swift; sourceTree = "<group>"; };
+		D20D754428BDC86C00081653 /* NC2-NLP-Sentiment-Analysis-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "NC2-NLP-Sentiment-Analysis-Info.plist"; sourceTree = SOURCE_ROOT; };
 		D276AC2028B6FDFB006912D9 /* NC2_NLP_Sentiment_Analysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NC2_NLP_Sentiment_Analysis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D276AC2328B6FDFB006912D9 /* NC2_NLP_Sentiment_AnalysisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC2_NLP_Sentiment_AnalysisApp.swift; sourceTree = "<group>"; };
 		D276AC2728B6FDFC006912D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,6 +76,7 @@
 		D276AC2228B6FDFB006912D9 /* NC2_NLP_Sentiment_Analysis */ = {
 			isa = PBXGroup;
 			children = (
+				D20D754428BDC86C00081653 /* NC2-NLP-Sentiment-Analysis-Info.plist */,
 				D276AC2328B6FDFB006912D9 /* NC2_NLP_Sentiment_AnalysisApp.swift */,
 				D276AC3428B6FE25006912D9 /* Utilties */,
 				D276AC3328B6FE20006912D9 /* ViewModels */,
@@ -97,6 +101,7 @@
 			children = (
 				D276AC4128B6FEF2006912D9 /* SentimentModel.swift */,
 				D276AC4728B70429006912D9 /* ClovaEnum.swift */,
+				D20D754228BDB63300081653 /* CustomEnum.swift */,
 				D276AC4928B71339006912D9 /* DataServiceEnum.swift */,
 				D2D78ADC28B8526000AA8BFB /* DiaryModel.swift */,
 			);
@@ -215,6 +220,7 @@
 				D2D78AE228B8F56200AA8BFB /* View+Extension.swift in Sources */,
 				D276AC4428B6FF07006912D9 /* TextInput.swift in Sources */,
 				D276AC4828B70429006912D9 /* ClovaEnum.swift in Sources */,
+				D20D754328BDB63300081653 /* CustomEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +352,7 @@
 				DEVELOPMENT_TEAM = 4JPWGVR2ZN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NC2-NLP-Sentiment-Analysis-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -375,6 +382,7 @@
 				DEVELOPMENT_TEAM = 4JPWGVR2ZN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NC2-NLP-Sentiment-Analysis-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

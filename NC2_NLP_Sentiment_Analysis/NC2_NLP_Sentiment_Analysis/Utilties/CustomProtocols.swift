@@ -11,3 +11,4 @@ protocol DataService {
     var sentimentAnalysisPublisher: Published<SentimentModel?>.Publisher { get }
     func fetchSentimentAnalysis(_ text: String)
 }
+
