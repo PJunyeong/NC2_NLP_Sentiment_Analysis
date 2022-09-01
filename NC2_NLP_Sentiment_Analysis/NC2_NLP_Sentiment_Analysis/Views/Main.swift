@@ -58,7 +58,7 @@ extension Main {
                 .withDefaultViewModifier()
         }
         .sheet(isPresented: $showSheet) {
-            TextInput(dataServiceEnum: .CustomSentimentDataService)
+            TextInput(dataServiceEnum: .ClovaSentimentDataService)
         }
     }
 }

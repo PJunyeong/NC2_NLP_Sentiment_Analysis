@@ -11,11 +11,13 @@ struct TextInput: View {
     @StateObject private var viewModel: TextInputViewModel
     init(dataServiceEnum: DataServiceEnum) {
         _viewModel = StateObject(wrappedValue: TextInputViewModel(dataService: dataServiceEnum.dataService))
+        UITextView.appearance().backgroundColor = .clear
     }
     var body: some View {
         VStack {
             TextEditor(text: $viewModel.inputText)
-                .background(Color.gray.opacity(0.1))
+                .background(Color.gray.opacity(0.2))
+                .font(.title)
                 .cornerRadius(10)
                 .padding()
             
@@ -26,10 +28,13 @@ struct TextInput: View {
                         .fontWeight(.semibold)
                         .withDefaultViewModifier()
                 }
+                Image(sentimentAnalysis.labelImageString)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 200, height: 200)
                 Text(sentimentAnalysis.labelString)
                     .font(.headline)
                     .fontWeight(.semibold)
-                    .withDefaultViewModifier()
             }
             Button {
                 viewModel.fetchSentimentAnalysis()
@@ -38,6 +43,7 @@ struct TextInput: View {
                     .font(.headline)
                     .fontWeight(.semibold)
                     .withDefaultViewModifier()
+                    .padding(.bottom, 10)
             }
         }
     }

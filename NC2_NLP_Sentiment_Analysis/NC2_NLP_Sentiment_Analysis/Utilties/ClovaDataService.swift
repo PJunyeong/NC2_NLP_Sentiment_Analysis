@@ -33,6 +33,7 @@ class ClovaDataService: DataService {
             } receiveValue: { [weak self] returnedData in
                 guard let self = self else { return }
                 self.sentimentAnalysis = returnedData
+                print(returnedData)
             }
             .store(in: &cancellabes)
     }

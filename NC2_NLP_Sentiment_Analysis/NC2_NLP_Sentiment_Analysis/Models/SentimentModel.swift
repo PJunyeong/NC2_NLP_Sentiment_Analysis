@@ -24,6 +24,19 @@ struct SentimentModel: Codable {
         default: return ""
         }
     }
+    
+    var labelImageString: String {
+        guard let label = label else { return "" }
+        switch label {
+        case "0": return "funny"
+        case "1": return "anxious"
+        case "2": return "nervous"
+        case "3": return "sad"
+        case "4": return "anger"
+        case "5": return "hurt"
+        default: return ""
+        }
+    }
 }
 
 // MARK: - Document

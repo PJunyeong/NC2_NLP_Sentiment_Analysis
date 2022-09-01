@@ -24,7 +24,7 @@ enum CustomAPI {
     
     var urlString: String {
         switch self {
-        case .sentiment: return "http://da84-34-74-205-70.ngrok.io/analysis"
+        case .sentiment: return "http://e6f2-34-67-224-129.ngrok.io/analysis"
         }
     }
 }
